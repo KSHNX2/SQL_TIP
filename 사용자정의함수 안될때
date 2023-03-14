@@ -1,0 +1,6 @@
+SET GLOBAL log_bin_trust_function_creators = 'ON';
+
+//위 쿼리문을 입력해 사용자 정의 함수를 사용할 수 있도록한다
+
+show global variables like 'log_bin_trust_function_creators';
+//위 쿼리문은 현재 사용자 정의함수가 사용가능한지 확인하는 쿼리문이다.
